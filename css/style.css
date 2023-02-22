@@ -4,3 +4,46 @@
   box-sizing: border-box;
 }
 
+body{
+
+}
+
+img {
+  height: 100%;
+}
+
+a{
+  text-decoration: none;
+}
+
+.white{
+  color: white;
+}
+
+.container{
+  margin: 0 auto;
+  text-align: center;
+}
+
+.bk-orange{
+  background-color: rgb(255, 105, 0);
+}
+
+header .container{
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+  height: 80px;
+}
+
+.container .cataloghi,
+.container .icon {
+  line-height: 80px;
+
+}
+
+#logo  {
+  margin: auto 0;
+  height: 30%;
+
+}
