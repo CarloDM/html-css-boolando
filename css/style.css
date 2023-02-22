@@ -9,6 +9,7 @@ body{
 }
 
 img {
+  width: 100%;
   height: 100%;
 }
 
@@ -46,4 +47,55 @@ header .container{
   margin: auto 0;
   height: 30%;
 
+}
+
+main .container {
+  margin-top: 40px;
+  width: 70%;
+  border: solid 1px red;
+}
+
+.container .card {
+  width: calc(100% /3) ;
+  border: 1px solid black;
+}
+
+.card .product {
+  position: relative;
+  width: 100%;
+  height: 350px;
+}
+
+.product img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.preferiti , .sale , .category {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: solid 1px black;
+}
+
+.preferiti{
+  top: 10px;
+  right: 0px
+}
+
+.sale {
+  bottom: 30px;
+}
+
+.category{
+  bottom: 30px;
+  left: 30px;
+}
+
+.card .info {
+  text-align: left;
 }
